@@ -1,0 +1,161 @@
+* {
+background-color: #E5E5E5;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: auto 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link{
+    color: #000000;
+    font-size: 17px;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.Logo {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 10px;
+    font-size: 37px;
+}
+
+.interior {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.interior img {    
+    width: 100%;
+    height: 100%;  
+    margin-top: 20px;
+}
+
+.description {
+    margin: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    font-size: 20px;
+
+}
+
+.main_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #B0AD92;
+ 
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.content {
+    float: left;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px #4b4847;
+    text-align: center;
+    font-size: 15px;
+    
+     
+}
+
+
+.timetable {
+    margin: 10px 20px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+}
+
+.catalog_link {
+    color: rgb(160, 2, 2);
+    letter-spacing: 3px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+
+
+.gallery_pict {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pict {
+    height: auto;
+    width: 40%;
+    margin: 20px;
+}
+
+.pict img {
+    
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    background: #B0AD92;
+    border-top: solid 1px #4b4847;
+    border-bottom: solid 1px #4b4847;
+    font-size: 30px;
+   
+}
+
+.gallery_pict {
+    background: #B0AD92;
+    height: 100%;
+}
+
+.menu_footer {
+    display:flex;
+    justify-content:space-between;
+    list-style-type:none;
+    margin: 20px 50px;
+    
+    
+}
+
+.menu_footer a  {
+    color: black;
+    letter-spacing: 3px;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
