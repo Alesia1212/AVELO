@@ -6,9 +6,7 @@
     <MainMenu></MainMenu>
     <Gallery></Gallery>
     <Footer></Footer>
-    <router-view/>
-      
-   
+    
 
     
   </div>
