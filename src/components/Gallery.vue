@@ -7,6 +7,7 @@
         
 
         <div class="gallery_pict">
+            
                        
             <div class="pict">
                 <img src="img\Gallery\coffee-gecea66a73_1280.jpg">

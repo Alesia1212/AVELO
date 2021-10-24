@@ -6,6 +6,8 @@
     <MainMenu></MainMenu>
     <Gallery></Gallery>
     <Footer></Footer>
+    <Vaucher></Vaucher>
+    
     
 
     
@@ -19,6 +21,9 @@ import Description from "./components/Description.vue";
 import MainMenu from "./components/MainMenu.vue";
 import Gallery from "./components/Gallery.vue";
 import Footer from "./components/Footer.vue";
+import Vaucher from "./components/Vaucher.vue";
+
+
 import $ from "jquery"
 
 
@@ -31,6 +36,8 @@ export default {
     MainMenu,
     Gallery,
     Footer,
+    Vaucher,
+    
     
   },
   data() {

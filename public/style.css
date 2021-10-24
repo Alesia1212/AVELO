@@ -1,5 +1,7 @@
 * {
-background-color: #E5E5E5;
+    box-sizing:content-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -8,6 +10,8 @@ html {
 
 body {
     margin: auto 100px;
+    background-color: #E5E5E5;
+    height: auto;
 }
 
 .menu {
@@ -75,9 +79,9 @@ h3 {
     width: 500px;
     margin: 20px;
     padding: 20px;
-    border: solid 1px #4b4847;
     text-align: center;
     font-size: 15px;
+    background: #efefee;
     
      
 }
@@ -102,6 +106,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  
 }
 
 .pict {
@@ -125,12 +130,16 @@ h2 {
     border-top: solid 1px #4b4847;
     border-bottom: solid 1px #4b4847;
     font-size: 30px;
+    
    
 }
 
+.gallery {
+background: #B0AD92;
+}
+
 .gallery_pict {
-    background: #B0AD92;
-    height: 100%;
+height: 100%;
 }
 
 .menu_footer {
@@ -148,14 +157,113 @@ h2 {
     font-size: 20px;
   }
 
+.conteiner_promo {
+    background: url(img/vaucher/gift-voucher-coupon-discount-special-offer.jpg) center center/cover no-repeat;
+    height: 640px;
+}
+
+.gift_conteiner {
+    padding-top: 5px;
+    width: 100%;
+    
+}
+
+.gift_description {
+    margin: 10px 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    font-size: 25px;
+    color:rgb(249, 249, 249);
+    font-weight: 300;
+}
+
+.simple {
+    margin: 30px 40px;
+}
+.promo {
+    display: flex;
+    justify-content: space-between;
+    margin: 280px 100px;
+}
 
 
 
+.promo_description {
+    width: 800px;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    font-size: 20px;
+    color:rgb(249, 249, 249);
+    font-weight: 300;
+}
 
+.promo_btn {
+    width: 220px;
+    height: 70px;
+    background: none;
+    color:rgb(249, 249, 249);
+    font-size: 25px;
+    font-weight: 300;
+    border: 4px solid rgba(0, 0, 0, 0.35);
+}
 
+.promo_btn:hover {
+    background:rgb(249, 249, 249);
+    color:black;
+    cursor: pointer;
+    
 
+}
 
+.price {
+    height: 50px;
+    width: 300px;
+    color:rgb(255, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
 
+.promo_pict{
+    margin: 0;
+    padding: 0;
+    width: 50%;
 
+}
 
+.program_header {
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.dinner_program {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.dinner_program img {
+    width: 100%;
+    height: 100%;
+        
+}
+
+.dinner_description {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    font-size: 20px;
+    align-items: center;
+    background: #efefee;
+}
+
+.dinner_description p {
+    margin: 30px;
+}
 
