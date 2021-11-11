@@ -1,42 +1,30 @@
 <template>
-  <div id="app">
+  <div>
     <Conteiner></Conteiner>
-    <Avelo></Avelo>
-    <Description></Description>
-    <MainMenu></MainMenu>
-    <Gallery></Gallery>
+        
+    <router-view/>
+
     <Footer></Footer>
-    <Vaucher></Vaucher>
-    
-    
 
     
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import Conteiner from "./components/Conteiner.vue";
-import Avelo from "./components/Avelo.vue";
-import Description from "./components/Description.vue";
-import MainMenu from "./components/MainMenu.vue";
-import Gallery from "./components/Gallery.vue";
 import Footer from "./components/Footer.vue";
-import Vaucher from "./components/Vaucher.vue";
 
 
-import $ from "jquery"
+
+//import $ from "jquery";
 
 
 export default {
   name: "App",
   components: {
     Conteiner,
-    Avelo,
-    Description,
-    MainMenu,
-    Gallery,
     Footer,
-    Vaucher,
+    
     
     
   },
@@ -45,7 +33,7 @@ export default {
       projects: null,
     };
   },
-  mounted() {
+  /*mounted() {
     // This will break one day
     // TODO: Use own API key
     const url =
@@ -77,7 +65,7 @@ export default {
     scrollToTop() {
       window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     },
-  }
+  }*/
 };
   
 </script>

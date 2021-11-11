@@ -1,9 +1,6 @@
 <template>
     <div>
-        <div class="Logo">
-        <img src="img/дерево олива 1.png" alt="Logo">
-        </div>  
-
+          
         <h1>
             AVELO
         </h1>

@@ -27,6 +27,8 @@ body {
     font-size: 17px;
     text-decoration: none;
     letter-spacing: 4px;
+    font-size: 18px;
+    
 }
 
 .Logo {
@@ -266,4 +268,8 @@ height: 100%;
 .dinner_description p {
     margin: 30px;
 }
+
+
+
+
 

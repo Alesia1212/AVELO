@@ -7,7 +7,7 @@
             <li class="menu_item"><a href="#" class="menu_link">HOME</a></li>
             <li class="menu_item"><a href="#" class="menu_link">WINE LIST</a></li>
             <li class="menu_item"><a href="#" class="menu_link">TEAM</a></li>
-            <li class="menu_item"><a href="../components/Vaucher.vue" class="menu_link">GIFT VOUCHERS</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">CONTACTS</a></li>
         </ul>
 
     </div>
