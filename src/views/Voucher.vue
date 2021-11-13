@@ -26,9 +26,13 @@
             <button class="promo_btn">Buy Voucher</button>
             </div>
 
+          
+
         </div>
+         
 
     </div>
+    
 
     <div class="conteiner_program">
 
@@ -99,9 +103,12 @@ If you are looking for a restaurant in Minsk with live music for celebrations, c
         
       </div>
 
-    </div>  
+    </div>
+
     
-  </div>  
+    
+  </div> 
+   
 </template>
 
 

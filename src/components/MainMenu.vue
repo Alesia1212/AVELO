@@ -36,7 +36,7 @@
         </div>   
         <div class="content">
             
-            <div  iv class="descriptoon">
+            <div class="descriptoon">
                 <h3>BREAKFAST</h3>
                 <div>
                 <img src="img/завтрак 1.png">
