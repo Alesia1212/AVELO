@@ -34,7 +34,7 @@ body {
 
 .menu .menu_link:hover {
     text-decoration: underline;
-
+    
 }
 
 .lang {
@@ -148,8 +148,7 @@ h2 {
     padding: 30px;
     text-align: center;
     letter-spacing: 2px;
-    border-top: solid 1px #4b4847;
-    border-bottom: solid 1px #4b4847;
+   
     font-size: 30px;
     
    
@@ -295,6 +294,11 @@ height: 100%;
 
 .dinner_description p {
     margin: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    
 }
 
 .contact {
@@ -313,7 +317,7 @@ height: 100%;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 460px;
+    width: 500px;
     height: 190px;
     background-color:#b8b6a6;
     padding: 25px;
@@ -365,13 +369,13 @@ height: 100%;
 }
 
 .team_deskr {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 20px;
     font-weight: 400;
     padding: 20px;
     line-height: 30px;
     text-align: center;
-    line-height: 40px;
+    
 }
 
 .staff_conteiner {
@@ -412,6 +416,22 @@ height: 100%;
     padding-top: 15px;
     letter-spacing: 1px;
     line-height: 25px;
+}
+
+.about_us {
+    margin-bottom: 20px;
+}
+.lefting {
+    float:left; 
+    margin-right: 20px;
+    
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
 
 

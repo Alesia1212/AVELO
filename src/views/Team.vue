@@ -21,9 +21,9 @@ With our work, we want to delight each of our visitors. We guarantee all clients
       </div>
 
       <div class="staff"> 
-        <div class="staff_name">Alexander</div>
+        <div class="staff_name">Tommaso d'Amato</div>
         <div class="staff_position">Сhief-cooker</div>
-        <div class="staff_desсr">The highly qualified chef Alexander is responsible for the selection of products and the preparation of delicious Italian dishes. Dishes made by him turn into real masterpieces. They have a harmonious and refined taste, as well as a very appetizing appearance. No one will remain indifferent to such an unsurpassed combination. </div>
+        <div class="staff_desсr">The highly qualified chef Tommaso d'Amato indigenous Italian, Born and raised in southern Italy, in the Sicily region. He is responsible for the selection of products and the preparation of delicious Italian dishes. Dishes made by him turn into real masterpieces. They have a harmonious and refined taste, as well as a very appetizing appearance. No one will remain indifferent to such an unsurpassed combination. </div>
       </div>
 
       <div class="staff"> 
