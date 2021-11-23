@@ -31,7 +31,8 @@
                     12:30PM - 2:45PM & 6:00PM - 9:15PMA 
                 </div>  
                 
-                <a href="#" class="catalog_link">LA CARTE</a>
+                <router-link to="/alacard" class="catalog_link">LA CARTE</router-link>
+                
             </div>
         </div>   
         <div class="content">
@@ -59,7 +60,7 @@
                     9:00AM - 11AM
                 </div> 
                 
-                <a href="#" class="catalog_link">BREAKFAST</a>
+                <router-link to="/breakfast" class="catalog_link">BREAKFAST</router-link>
             </div>
         </div>   
         <div class="content">
@@ -81,8 +82,9 @@
                     12:30PM - 2:45PM
                   
                 </div>               
-                               
-                <a href="#" class="catalog_link">SET LUNCH MENU</a>
+
+                <router-link to="/lunch" class="catalog_link">SET LUNCH MENU</router-link>               
+                
             </div>
         </div>   
         <div class="content">
@@ -98,8 +100,8 @@
                     Our sommelier team is ready to recommend the perfect complement to your meal in advance or in the restaurant.
                 </div> 
                              
+                <router-link to="/wine" class="catalog_link">BROWSE WINE</router-link> 
                 
-                <a href="#" class="catalog_link">BROWSE WINE</a>
             </div>
         </div>  
         

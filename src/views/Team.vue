@@ -4,10 +4,10 @@
 
     
    
-    <div class="team_header">Our team</div>
+    <h2>Our team</h2>
     <div class="team_subtitle">The best experts in Italian cuisine</div>
     <div class="team_img">
-            <img src="img\team\Команда шеф-поваров.jpg" style="width:max 100%; " alt="interior">
+            <img src="img\team\1234.jpg">
     </div>
     <div class="team_deskr">This is our team. Our team consists of specialists competent in their field. Their main goal is to do their job so that the result fully meets the expectations of the guests and even pleasantly surprises them. Each of the team strives to convey to the visitors all the atmosphere and hospitality of Italian culture. Our goal is to prepare delicious, traditional Italian cuisine, as well as to provide impeccable service and attentive service.
 With our work, we want to delight each of our visitors. We guarantee all clients that the time spent in our establishment will be distinguished by a special warmth and exquisite taste.</div>

@@ -20,7 +20,7 @@
 
             </div>
             <div class="price">
-                200€
+                300 BYR
             </div>
 
             <button class="promo_btn">Buy Voucher</button>
