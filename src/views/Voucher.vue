@@ -1,4 +1,5 @@
 <template>
+
   <div class="vaucher">
         
 
@@ -15,15 +16,15 @@
             </div>
 
             <div class="promo">
-            <div class="promo_description">
-                Dinner for two.<br> The voucher is valid for 3 months.
+              <div class="promo_description">
+                  Dinner for two.<br> The voucher is valid for 3 months.
 
-            </div>
-            <div class="price">
-                300 BYR
-            </div>
+              </div>
+              <div class="price">
+                  300 BYR
+              </div>
 
-            <button class="promo_btn">Buy Voucher</button>
+              <button id="modal_but" class="promo_btn">Buy Voucher</button>
             </div>
 
           
@@ -104,12 +105,57 @@ If you are looking for a restaurant in Minsk with live music for celebrations, c
       </div>
 
     </div>
+    <div class="overlay">
+      <div class="modal" id="voucher_modal">
+        <div class="modal_close">&times;</div> 
+        
 
+        <div class="modal_subtitle">Пожалуйста заполните форму заявки</div>
+        <div class="modal_descr">Мы вам перезвоним в течение 10-ти минут</div>
+
+        <form class="feed_form" action="#">
+          <input name="name" required placeholder="Ваше имя" type="text">
+          <input name="phone" required placeholder="Ваш телефон" type="number">
+          <input name="email" required placeholder="Ваш e-mail" type="email">
+
+          <button class="button_modal">Заказать ваучер</button>
+
+
+        </form>
+      </div>
+    </div>
     
-    
-  </div> 
+  </div>
+   
    
 </template>
+
+
+<script>
+import $ from 'jquery';
+export default {
+  name: "App",
+  setup(){
+     console.log($('a:first').text());
+  },
+  mounted() {
+    $('#modal_but') .on("click", function() {
+    $('.overlay').show();
+    console.log ('test');
+    $('#voucher_modal').show();
+  }); 
+$('.modal_close') .on("click", function() {
+    $('.overlay').hide();
+    console.log ('test');
+    $('#voucher_modal').hide();
+  }); 
+  }
+};
+
+  
+</script>
+
+
 
 
 

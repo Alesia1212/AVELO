@@ -13,6 +13,8 @@
 <script lang="ts">
 import Conteiner from "./components/Conteiner.vue";
 import Footer from "./components/Footer.vue";
+import $ from 'jquery';
+
 
 
 
@@ -21,9 +23,7 @@ export default {
   components: {
     Conteiner,
     Footer,
-    
-    
-    
+      
   },
   
   data() {
@@ -31,8 +31,16 @@ export default {
       projects: null,
     };
   },
+  mounted(){
+    console.log($("a"))
+  }
 
 };
+
+
+
+
+
 
 
 

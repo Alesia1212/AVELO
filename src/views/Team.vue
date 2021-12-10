@@ -1,5 +1,5 @@
 <template>
-
+  
   <div class="team">
 
     
@@ -53,7 +53,7 @@ With our work, we want to delight each of our visitors. We guarantee all clients
 
     
   </div>
- 
 
+ 
  
 </template>

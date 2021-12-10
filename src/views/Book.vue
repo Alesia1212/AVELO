@@ -1,6 +1,6 @@
 <template>
 <div class="booking_form">
-  <form>
+  <form class="book_res">
    
 		<h3>RESERVATION FORM</h3>
 		
