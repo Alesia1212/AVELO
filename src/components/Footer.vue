@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="Logo">
-            <img src="img/дерево олива 1.png" alt="Logo">
+            <img src="img/дерево олива 1.png" alt="Logo" width="130" height="104">
         </div> 
         <ul class="menu_footer">
             <li class="menu_item"><a href="#" class="menu_link">HOME</a></li>

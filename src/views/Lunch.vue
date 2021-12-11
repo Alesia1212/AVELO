@@ -8,7 +8,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\1.jpg" width="400" height="400">
+        <img src="img\lunch\1.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">
@@ -23,7 +23,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\2.jpg" width="400" height="400">
+        <img src="img\lunch\2.jpg" width="300" height="300">
                                     
         <div class="menu_descr">
             Shrimp and squid salad with mango sauce
@@ -36,7 +36,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\3.jpg" width="400" height="400">
+        <img src="img\lunch\3.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">
@@ -50,7 +50,7 @@
       </div>      
       <div class="breakfast_card">
                         
-        <img src="img\lunch\4.jpg" width="400" height="400">
+        <img src="img\lunch\4.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -65,7 +65,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\5.jpg" width="400" height="400">
+        <img src="img\lunch\5.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -80,7 +80,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\6.jpg" width="400" height="400">
+        <img src="img\lunch\6.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -95,7 +95,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\7.jpg" width="400" height="400">
+        <img src="img\lunch\7.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -110,7 +110,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\8.jpg" width="400" height="400">
+        <img src="img\lunch\8.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -125,7 +125,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\9.jpg" width="400" height="400">
+        <img src="img\lunch\9.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -140,7 +140,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\10.jpg" width="400" height="400">
+        <img src="img\lunch\10.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -155,7 +155,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\11.jpg" width="400" height="400">
+        <img src="img\lunch\11.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -170,7 +170,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\lunch\12.jpg" width="400" height="400">
+        <img src="img\lunch\12.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          

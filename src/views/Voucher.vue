@@ -110,15 +110,15 @@ If you are looking for a restaurant in Minsk with live music for celebrations, c
         <div class="modal_close">&times;</div> 
         
 
-        <div class="modal_subtitle">Пожалуйста заполните форму заявки</div>
-        <div class="modal_descr">Мы вам перезвоним в течение 10-ти минут</div>
+        <div class="modal_subtitle">Please fill out the application form</div>
+        <div class="modal_descr">We will call you back within 10 minutes</div>
 
         <form class="feed_form" action="#">
-          <input name="name" required placeholder="Ваше имя" type="text">
-          <input name="phone" required placeholder="Ваш телефон" type="number">
-          <input name="email" required placeholder="Ваш e-mail" type="email">
+          <input name="name" required placeholder="Your name" type="text">
+          <input name="phone" required placeholder="Your phone number" type="number">
+          <input name="email" required placeholder="Your e-mail" type="email">
 
-          <button class="button_modal">Заказать ваучер</button>
+          <button class="button_modal">Order a voucher</button>
 
 
         </form>
@@ -154,9 +154,3 @@ $('.modal_close') .on("click", function() {
 
   
 </script>
-
-
-
-
-
-

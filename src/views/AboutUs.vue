@@ -23,7 +23,7 @@
     <h2>About the chef</h2>
 
     
-    <img src="img\chef\rabota-povarom-za-granicei.jpg" class="lefting" width="800" height="530">
+    <img src="img\chef\rabota-povarom-za-granicei.jpg" class="lefting" width="630" height="414">
     
     <p>
     The chef of AVELO is a native Italian Tommaso d'Amato. Born and raised in southern Italy, in the Sicily region.

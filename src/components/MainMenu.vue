@@ -6,7 +6,7 @@
             <div class="descriptoon">
                 <h3>A LA CART</h3>
                 <div>
-                <img src="img/Rectangle 4.png">
+                <img src="img/Rectangle 4.png" width=350 height=340>
                 </div> 
                             
                 <div class="timetable">
@@ -40,7 +40,7 @@
             <div class="descriptoon">
                 <h3>BREAKFAST</h3>
                 <div>
-                <img src="img/завтрак 1.png">
+                <img src="img/завтрак 1.png" width=350 height=340>
                 </div>
                 <div class="timetable"> 
                     Breakfast at AVELO is fresh, light, healthy & like no other.
@@ -68,7 +68,7 @@
             <div class="descriptoon">
                 <h3>LUNCH</h3>
                 <div>
-                <img src="img/ланч1 1.png">
+                <img src="img/ланч1 1.png" width=350 height=340>
                 </div> 
                 <div class="timetable">
                     A frequently changing seasonal set lunch, available every day & easily enjoyed within an hour.
@@ -92,7 +92,7 @@
             <div class="descriptoon">
                 <h3>WINE LIST</h3>
                 <div>
-                <img src="img/вино 1.png">
+                <img src="img/вино 1.png" width=350 height=340>
                 </div> 
                 <div class="timetable">
                     Browse a wide range of bottles from different regions.

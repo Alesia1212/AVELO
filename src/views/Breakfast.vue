@@ -8,7 +8,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\breakfast\1.jpg" width="400" height="400">
+        <img src="img\breakfast\1.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">
@@ -23,7 +23,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\breakfast\2.jpg" width="400" height="400">
+        <img src="img\breakfast\2.jpg" width="300" height="300">
                                     
         <div class="menu_descr">
             Granola with wild berry yoghurt
@@ -36,7 +36,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\breakfast\3.jpg" width="400" height="400">
+        <img src="img\breakfast\3.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">
@@ -50,7 +50,7 @@
       </div>      
       <div class="breakfast_card">
                         
-        <img src="img\breakfast\4.jpg" width="400" height="400">
+        <img src="img\breakfast\4.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -65,7 +65,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\breakfast\5.jpg" width="400" height="400">
+        <img src="img\breakfast\5.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -80,7 +80,7 @@
 
       <div class="breakfast_card">
                         
-        <img src="img\breakfast\6.jpg" width="400" height="400">
+        <img src="img\breakfast\6.jpg" width="300" height="300">
                 
                           
         <div class="menu_descr">          
@@ -96,5 +96,4 @@
               
     </div>
   </div>
-
 </template>

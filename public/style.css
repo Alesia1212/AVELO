@@ -27,7 +27,7 @@ body {
 
 .menu .menu_link{
     color: #000000;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     letter-spacing: 4px;
     
@@ -62,8 +62,7 @@ body {
 h1 {
     letter-spacing: 5px;
     text-align: center;
-    margin: 10px;
-    font-size: 37px;
+    font-size: 30px;
 }
 
 .interior {
@@ -82,7 +81,7 @@ h1 {
     text-align: center;
     letter-spacing: 3px;
     line-height: 1.5em;
-    font-size: 20px;
+    font-size: 16px;
 
 }
 
@@ -96,7 +95,7 @@ h1 {
 
 h3 {
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .content {
@@ -105,7 +104,7 @@ h3 {
     margin: 20px;
     padding: 20px;
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     background: #f2f2f2;
     
      
@@ -113,8 +112,8 @@ h3 {
 
 
 .timetable {
-    margin: 10px 20px;
-    letter-spacing: 2px;
+    margin: 10px 0;
+    letter-spacing: 1px;
     line-height: 1.3em;
     
 }
@@ -122,7 +121,7 @@ h3 {
 .catalog_link {
     color: rgb(160, 2, 2);
     letter-spacing: 3px;
-    font-size: 17px; 
+    font-size: 15px; 
     font-weight: bold;
 }
 
@@ -138,7 +137,7 @@ h3 {
 .pict {
     height: auto;
     width: 40%;
-    margin: 20px;
+    padding: 10px 0;
 }
 
 .pict img {
@@ -151,8 +150,8 @@ h2 {
     margin: 0;
     padding: 20px;
     text-align: center;
-    letter-spacing: 2px;
-    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-size: 25px;
     
    
 }
@@ -186,18 +185,17 @@ height: 100%;
 .menu_footer a  {
     color: black;
     letter-spacing: 3px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
 .conteiner_promo {
     background: url(img/vaucher/gift-voucher-coupon-discount-special-offer.jpg) center center/cover no-repeat;
-    height: 640px;
+    height: 600px;
 }
 
 .gift_conteiner {
     padding-top: 5px;
     width: 100%;
-    
 }
 
 .gift_description {
@@ -205,7 +203,7 @@ height: 100%;
     text-align: center;
     letter-spacing: 3px;
     line-height: 1.5em;
-    font-size: 25px;
+    font-size: 20px;
     color:rgb(249, 249, 249);
     font-weight: 300;
 }
@@ -225,17 +223,19 @@ height: 100%;
     width: 800px;
     letter-spacing: 3px;
     line-height: 1.5em;
-    font-size: 20px;
+    font-size: 16px;
     color:rgb(249, 249, 249);
     font-weight: 300;
 }
 
 .promo_btn {
     width: 220px;
-    height: 70px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
     background: none;
     color:rgb(249, 249, 249);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     border: 4px solid rgba(0, 0, 0, 0.35);
 }
@@ -252,7 +252,7 @@ height: 100%;
     height: 50px;
     width: 300px;
     color:rgb(255, 0, 0);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
 }
@@ -267,7 +267,7 @@ height: 100%;
 .program_header {
     margin: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -290,14 +290,14 @@ height: 100%;
     text-align: center;
     letter-spacing: 1px;
     line-height: 1.9em;
-    font-size: 20px;
+    font-size: 16px;
     align-items: center;
     background: #f2f2f2;
 }
 
 .dinner_description p {
     margin: 30px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 30px;
@@ -311,7 +311,7 @@ height: 100%;
 .contact_name {
     letter-spacing: 5px;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -327,16 +327,16 @@ height: 100%;
 }
 
 .contact_addr {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     letter-spacing: 3px;
 }
 
 .contact_phone {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     color:black;
@@ -352,7 +352,7 @@ height: 100%;
 .team_header {
     letter-spacing: 5px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     padding-top: 10px;
 }
@@ -366,13 +366,13 @@ height: 100%;
 .team_subtitle {
     letter-spacing: 1px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .team_deskr {
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     padding: 20px;
     line-height: 30px;
@@ -388,26 +388,26 @@ height: 100%;
 }
 
 .staff {
-    width: 27%;
-    padding: 20px;
-    margin: 20px;
+    width: 28%;
+    padding: 10px;
+    margin: 10px;
     background-color: #f2f2f2;
-    border: solid 6px rgb(235, 235, 235);
-    outline: solid 6px rgb(211, 211, 211);
+    border: solid 4px rgb(235, 235, 235);
+    outline: solid 4px rgb(211, 211, 211);
     
      
 }
 
 .staff_name {
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     
 }
 
 .staff_position {
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     padding-top: 15px;
     font-style: italic;
@@ -415,11 +415,11 @@ height: 100%;
 
 .staff_desсr {
     
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     padding-top: 15px;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .about_us {
@@ -432,10 +432,10 @@ height: 100%;
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 30px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
 }
 
 .alacard {
@@ -455,7 +455,7 @@ p {
 h3 {
     text-align: center;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 20px;
    
     
    
@@ -464,8 +464,8 @@ h3 {
 .menu_conteiner {
     display: flex;
     justify-content: space-between;
-    width: 700px;
-    height: 250px;
+    width: 47%;
+    height: 170px;
     background-color:#f2f2f2;
     margin: 10px;
 }
@@ -475,7 +475,7 @@ h3 {
 .menu-descr {
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     font-weight: 400;
     letter-spacing: 1px;
@@ -490,7 +490,7 @@ h3 {
 .menu-price   {
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     font-weight: 400;
     letter-spacing: 1px;
@@ -504,7 +504,7 @@ h3 {
 
 .snacks_menu {
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .snacks_bacgr {
@@ -519,11 +519,11 @@ h3 {
 
 .breakfast_card {
     float: left;
-    width: 410px;
+    width: 310px;
     margin: 20px;
     padding: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     background: #f2f2f2;
     
      
@@ -533,7 +533,7 @@ h3 {
 
 .breakfast_descr {
     margin: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -544,7 +544,7 @@ h3 {
 .breakfast_price {
     font-style: italic;
     padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .booking_form {
@@ -554,8 +554,8 @@ h3 {
 
 
 fieldset {
-    width: 700px;
-    font-size: 20px;
+    width: 100%;
+    font-size: 16px;
     margin-top: 20px;
     
 }
@@ -564,20 +564,20 @@ fieldset {
 
 
 #rtb-date, #rtb-time, #rtb-party, #rtb-phone, #rtb-name, #rtb-email, #rtb-message {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 textarea {
-    width: 700px;
+    width: 100%;
     height: 140px;
 }
 
 button {
-    width: 700px;
+    width: 100%;
     height: 50px;
     margin-top: 10px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     background-color:rgb(26, 141, 145);
 
 }
@@ -589,7 +589,7 @@ label {
 .book_res {
     background-color:#d7d5c1;
     padding: 20px;
-    width: 700px;
+    width: 50%;
     height: auto;
 }
 
@@ -600,17 +600,18 @@ label {
 
 .booking {
     margin: 20px;
+    width: 50%;
 }
 
 .booking_header {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
 }
 
 .booking_descr {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     padding-top: 15px;
     line-height: 25px;
@@ -625,6 +626,7 @@ label {
     margin: 0 -100px;
     top: 0;
     background-color:rgba(0, 0, 0, 0.56);
+    
 }
 
 .modal {
@@ -633,17 +635,19 @@ label {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 380px;
-    min-height: 300px;
+    width: 320px;
+    min-height:250px;
     background-color:rgb(240, 240, 240);
-    padding: 40px;
+    padding: 25px;
+   
+   
 }
 
 .modal .modal_close {
     position: absolute;
     top: 0;
-    right: -40px;
-    font-size: 40px;
+    right: -30px;
+    font-size: 35px;
     line-height: 20px;
     color:rgb(250, 85, 9);
     cursor: pointer;
@@ -651,23 +655,24 @@ label {
 
 .modal .modal_subtitle {
     color:sienna;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
 }
 
 .modal .modal_descr {
     color:sienna;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
+    padding: 10px;
 }
 
 .button_modal {
     height: 50px;
     width: 250px;
     background-color:rgb(142, 138, 138);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     color: rgb(255, 255, 255);
     
