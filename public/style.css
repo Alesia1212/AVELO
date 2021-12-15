@@ -62,7 +62,8 @@ body {
 h1 {
     letter-spacing: 5px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
 }
 
 .interior {
@@ -679,7 +680,7 @@ label {
 }
 
 .button_modal:hover {
-    background-color:rgb(120, 115, 115);
+    background-color:#787373;
     
 }
 
@@ -689,7 +690,53 @@ input {
     margin: 10px;
 }
 
+.animate__animated.animate__rollIn {
+    animation-duration: 2s; 
+}
 
+.animate__animated.animate__rotateIn {
+    animation-duration: 2s; 
+}
+
+.animate__animated.animate__zoomInDown {
+    animation-duration: 2s; 
+}
+
+.animate__animated.animate__rubberBand {
+    animation-duration: 2s; 
+}
+
+.animate__animated.animate__fadeInDownBig {
+    animation-duration: 2s; 
+}
+
+.animate__animated.animate__fadeInRight {
+    animation-duration: 2s; 
+}
+
+.animate__animated.animate__fadeInLeft {
+    animation-duration: 2s; 
+}
+
+.animate__animated.wow.animate__fadeInUpBig {
+    animation-duration: 2s;
+}
+
+.animate__animated.wow.animate__lightSpeedInLeft {
+    animation-duration: 2s;
+}
+
+.animate__animated.wow.animate__rotateInUpLeft {
+    animation-duration: 2s;
+}
+
+.animate__animated.wow.animate__zoomIn {
+    animation-duration: 2s;
+}
+
+.animate__animated.wowanimate__bounceOut {
+    animation-duration: 2s;
+}
 
 
 

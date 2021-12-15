@@ -2,7 +2,7 @@
 <div class="booking_form">
   <form class="book_res">
    
-		<h3>RESERVATION FORM</h3>
+		<h3 class="animate__animated animate__fadeInDownBig">RESERVATION FORM</h3>
 		
 		<fieldset class="reservation">
 

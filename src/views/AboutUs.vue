@@ -1,6 +1,6 @@
 <template>
   <div class="about_us">
-    <h2>About Us</h2>
+    <h2 class="animate__animated animate__zoomInDown">About Us</h2>
     <p>Italian cuisine restaurant with an author's vision in the very center of Minsk. The institution is distinguished by a rich and varied menu, as well as a special relaxing atmosphere and a wonderful view of the Freedom Square street.
     <br><br>
     AVELO restaurant is decorated in Italian style. The laconic and discreet interior is elegantly complemented by decorative elements. In warmer months, guests can sit on the spacious summer terrace, which offers a picturesque view of the historic city center. There is a special terrace menu from the Chef.

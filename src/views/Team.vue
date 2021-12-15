@@ -4,7 +4,7 @@
 
     
    
-    <h2>Our team</h2>
+    <h2 class="animate__animated animate__rubberBand">Our team</h2>
     <div class="team_subtitle">The best experts in Italian cuisine</div>
     <div class="team_img">
             <img src="img\team\1234.jpg">

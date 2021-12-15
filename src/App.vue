@@ -4,6 +4,7 @@
         
     <router-view/>
 
+
     <Footer></Footer>
 
     
@@ -14,7 +15,7 @@
 import Conteiner from "./components/Conteiner.vue";
 import Footer from "./components/Footer.vue";
 import $ from 'jquery';
-
+import 'animate.css';
 
 
 
@@ -33,7 +34,10 @@ export default {
   },
   mounted(){
     console.log($("a"))
+    
   }
+   
+  
 
 };
 

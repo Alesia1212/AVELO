@@ -1,20 +1,36 @@
 <template>
     <div>
           
-        <h1>
+        <h1 class="animate__animated animate__rotateIn">
             AVELO
         </h1>
-
-        <div class="interior">
-            <img src="img\интерьер1 1.png" alt="interior">
-        </div>
+        
+        <Carousel></Carousel>
+        
     </div>
 </template>
 
-<script>
 
+
+
+<script lang="ts">
+import Carousel from "./Carousel.vue";
+
+
+
+
+export default {
+  name: "Avelo",
+  components: {
+    Carousel,
+      
+  },
+  
+ 
+   
+  
+
+};
+
+ 
 </script>
-
-<style scoped>
-
-</style>
