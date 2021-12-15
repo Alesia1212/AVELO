@@ -23,6 +23,8 @@ export default {
   name: "Avelo",
   components: {
     Carousel,
+
+    
       
   },
   

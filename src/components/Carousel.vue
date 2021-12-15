@@ -1,37 +1,38 @@
 <template>
 <div>
-    <div class="slideshow-container">
+<div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="img\интерьер1 1.png" style="width:100%">
-  <div class="text">AVELO</div>
+  <img src="img\интерьер1 1.png" alt="Природа" style="width:100%; height:700px">
+  <div class="text">AVELO feel like you are in Italy</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="img\интерьер1 1.png" style="width:100%">
-  <div class="text">AVELO</div>
+  <img src="img\2.jpg" alt="Лес" style="width:100%; height:700px">
+  <div class="text">AVELO feel like you are in Italy</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="img\интерьер1 1.png" style="width:100%">
-  <div class="text">AVELO</div>
+  <img src="img\3.jpg" alt="Горы" style="width:100%; height:700px">
+  <div class="text">AVELO feel like you are in Italy</div>
 </div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
 </div>
+
 </div>
+
+
+
 </template>
 
 
@@ -40,34 +41,26 @@
 export default {
   name: "Carousel",
 
-  mounted() {
-    var slideIndex = 1;
-showSlides(slideIndex);
+mounted() {
+var slideIndex = 0;
+showSlides();
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+    slides[i].style.display = "none";  
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-}    
-  
+  setTimeout(showSlides, 5000); 
+}
   }
 };
 
@@ -75,57 +68,31 @@ function showSlides(n) {
 </script>
 
 <style scoped>
-* {box-sizing: border-box}
-
-.mySlides {display: none}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
 img {vertical-align: middle;}
 
-
+/* Контейнер слайд-шоу */
 .slideshow-container {
   max-width: 1200px;
   position: relative;
   margin: auto;
 }
 
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
+/* Подпись текста */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #000000;
+  font-size: 25px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
+  font-weight: 600;
   text-align: center;
 }
 
-
+/* Номер текста (1/3 и т.д.) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -134,9 +101,8 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-
+/* Точки/пули/индикаторы */
 .dot {
-  cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -146,10 +112,11 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active {
   background-color: #717171;
 }
 
+/* Исчезающая анимация */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -167,8 +134,8 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-
+/* На небольших экранах уменьшите размер текста */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .text {font-size: 11px}
 }
 </style>
